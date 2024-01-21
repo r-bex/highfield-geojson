@@ -127,7 +127,7 @@
               ]
             ]
           ],
-          "type": "Polygon"
+          "type": "LineString"
         },
         "id": 0
       }

@@ -13,12 +13,15 @@ e.g. if you have two geojson files, one with a polygon and a point, and one with
 [leaflet-line latlngs="..."]
 ```
 
-Supported types:
+Running `python main.py myfile.geojson` will process just that file.
+
+To generate the geojson I recommend using https://geojson.io, then saving the resulting geojson into a file in this directory.
+
+### Supported types
+
 * Polygon -> leaflet-polygon
 * LineString -> leaflet-line
 * Point -> leaflet-circle
-
-To generate the geojson I recommend using https://geojson.io, then saving the resulting geojson into a file in this directory.
 
 ## Caveats
 
